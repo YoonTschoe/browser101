@@ -1,0 +1,71 @@
+body {
+  background-image: url("img.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#main {
+  margin: 50px 0;
+  width: 400px;
+  height: 680px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+ul {
+  background-color: antiquewhite;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+}
+.list__container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+li {
+  list-style: none;
+}
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#inputText {
+  border: none;
+  width: 100%;
+  padding: 0;
+  height: 25px;
+}
+#inputText:focus {
+  outline: none;
+}
+
+#submitBtn {
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-size: 30px;
+  margin: 20px 0;
+  cursor: pointer;
+}

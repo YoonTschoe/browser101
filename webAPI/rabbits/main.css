@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+#btn {
+  margin: 20px 0;
+  background-color: antiquewhite;
+  padding: 5px 15px;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
